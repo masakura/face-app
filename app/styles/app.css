@@ -1,3 +1,7 @@
+.video-container {
+  max-width: 480px;
+}
+
 #video {
   width: 100%;
   height: auto;
