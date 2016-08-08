@@ -24,11 +24,14 @@
   <body>
     <div class="video-container">
       <video id="video" autoplay></video>
+      <canvas id="canvas" width="480" height="320"></canvas>
     </div>
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/clmtrackr/clmtrackr.js"></script>
+    <script src="/bower_components/clmtrackr/models/model_pca_10_svm.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

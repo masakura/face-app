@@ -1,8 +1,16 @@
 .video-container {
   max-width: 480px;
+  position: relative;
 }
 
 #video {
+  position: relative;
   width: 100%;
   height: auto;
+}
+
+#canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
